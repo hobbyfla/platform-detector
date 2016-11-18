@@ -32,11 +32,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Hello!</h1>
 
 	<div id="body">
-		<p>You are using: <?= $agent ?></p>
-		<p> Plataform Details: <?= $info ?></p>
+		<p>You are using: <?= $model ?></p>
+		<br/>
+<!-- 		<p>Agent: <?= $agent ?></p>
+		<p>Platform: <?= $platform ?></p>
+		<p>Browser: <?= $browser ?></p> -->
 		<p>Video:</p>
 		<iframe width="420" height="315" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
-
+		<br/> <br/>
+<!-- 		<p><?= $_SERVER['HTTP_USER_AGENT'] ?> </p>
+ -->
 	</div>
 
 	<div id='footer'>

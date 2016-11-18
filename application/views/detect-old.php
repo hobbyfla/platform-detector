@@ -32,11 +32,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Hello!</h1>
 
 	<div id="body">
-		<p>You are using: <?= $agent ?></p>
-		<p> Plataform Details: <?= $info ?></p>
+		<p>You are using: <?= $model ?></p>
+		<br/>
 		<p>Video: <a href="https://www.youtube.com/embed/XGSy3_Czz8k">Click here</a></p>
-		<!-- p><?= $_SERVER['HTTP_USER_AGENT'] ?> </p-->
-
 	</div>
 
 	<div id='footer'>
