@@ -50,7 +50,7 @@ class Detect extends CI_Controller {
 		} elseif($this->agent->is_mobile() && $this->agent->mobile() == 'BlackBerry' && $this->agent->platform() == 'Android' 
 						 && $this->agent->has_small_screen()) {
 			$data['type'] = 1; // simple page without javascript and video ( New Blackberry Phone with Android )
-			$data['model'] = 'BackBerry';
+			$data['model'] = 'BackBerry - Android';
 						
 		} elseif($this->agent->is_mobile() && $this->agent->has_small_screen() && $this->agent->platform() != 'Android'
 						 && $this->agent->platform() != 'iOS' && $this->agent->platform() != 'Windows Phone' ) {
